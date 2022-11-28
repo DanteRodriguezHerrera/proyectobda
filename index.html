@@ -1,0 +1,105 @@
+<!-- Landind page -->
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="control.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"> //aqui se llama el archivo css
+    <title>Bien Gamers</title>
+</head>
+
+<style> 
+    .grid-container {
+            display: grid;
+            grid-template-columns: 240px 800px;
+            background-color: #FFFFFF ;
+            column-gap: 10px;
+        }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    </style>
+
+<body style="background-color:#3084ac;">
+    
+    <h1 id="titulo-principal">Bien Gamers</h1>
+    <a id= "xbox" href="xbox.html">Xbox</a>
+    <a id= "playstation" href="playstation.html">Playstation</a>
+    <a id= "nintendo" href="nintendo.html">Nintendo</a>
+    <a href="http://localhost:5000">Reseñas</a>
+    
+    <br>
+    <br>
+    <hr>
+    
+    <h2 id="subtitulo">Juegos mas recientes</h2>
+    <div class ="slideshow-container"> 
+        <div class="display-container">
+            <button class="button" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="button" onclick="plusDivs(1)">&#10095;</button>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                </div>
+                <div class="grid-item"> 
+                    <img class="mySlides" src="./img/m+r.jpg">
+                    <img class="mySlides" src="./img/gk.jfif" style="width: 50%">
+                    <img class="mySlides" src="./img/p5r.jpeg"> 
+                    <img class="mySlides" src="./img/sackboy.jpg"> 
+                    <img class="mySlides" src="./img/b3.jpg"> 
+                    <img class="mySlides" src="./img/codmw2.jpg"> 
+                    <img class="mySlides" src="./img/wrc.jpg"> 
+                    <img class="mySlides" src="./img/soulstone.jpg"> 
+                    <img class="mySlides" src="./img/sonic.jpg"> 
+                    <img class="mySlides" src="./img/fm2023.jpg"> 
+                    <img class="mySlides" src="./img/gowr.jpeg"> 
+                    <img class="mySlides" src="./img/amogusvr.jpg"> 
+                    <img class="mySlides" src="./img/dl2.jpg"> 
+                    <img class="mySlides" src="./img/ve.png">
+                    <img class="mySlides" src="./img/bendy.jpg">
+                    <img class="mySlides" src="./img/codw2.jpg">
+                    <img class="mySlides" src="./img/pokemon.jpg">
+                    <img class="mySlides" src="./img/jd2023.jpg" style="width: 50%">
+          </div>
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+        <span class="dot" onclick="currentSlide(11)"></span>
+        <span class="dot" onclick="currentSlide(12)"></span>
+        <span class="dot" onclick="currentSlide(13)"></span>
+        <span class="dot" onclick="currentSlide(14)"></span>
+        <span class="dot" onclick="currentSlide(15)"></span>
+        <span class="dot" onclick="currentSlide(16)"></span>
+        <span class="dot" onclick="currentSlide(17)"></span>
+        <span class="dot" onclick="currentSlide(18)"></span>
+      </div>
+
+    <h4>Encuentrános en nuestra página de facebook:</h4>
+
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">facebook.com/bien_gamers</a>
+
+    <br>
+    <br>
+
+    <h4>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
